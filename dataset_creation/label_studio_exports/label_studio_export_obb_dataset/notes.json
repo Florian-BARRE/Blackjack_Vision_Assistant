@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Card"
+    },
+    {
+      "id": 1,
+      "name": "Card_Holder"
+    },
+    {
+      "id": 2,
+      "name": "Trap"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
