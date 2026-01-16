@@ -1,0 +1,8 @@
+path: C:\Users\floot\Florian's Laptop\ESILV\CV and Deep Learning\ESILV_A5_Computer_Vision\dataset_creation\datasets\label_studio_export_obb_dataset_augmented
+train: images/train
+val: images/val
+names:
+  0: Card
+  1: Card_Holder
+  2: Trap
+task: obb
