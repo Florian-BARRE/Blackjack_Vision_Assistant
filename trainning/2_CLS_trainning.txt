@@ -1,0 +1,7 @@
+============================================================
+TRAINING COMMAND
+============================================================
+
+yolo train cfg="datasets\label_studio_export_cls_dataset_augmented\rank_dataset\train_cfg.yaml"
+
+============================================================

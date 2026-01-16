@@ -1,0 +1,7 @@
+============================================================
+TRAINING COMMAND
+============================================================
+
+yolo train cfg="C:\Users\floot\Florian's Laptop\ESILV\CV and Deep Learning\ESILV_A5_Computer_Vision\dataset_creation\datasets\label_studio_export_obb_dataset_augmented\train_cfg.yaml"
+
+============================================================
