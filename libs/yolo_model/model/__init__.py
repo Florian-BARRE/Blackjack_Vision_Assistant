@@ -1,17 +1,21 @@
-# ====== Code Summary ======
-# Enum to define supported model types for classification and OBB detection tasks.
+# ------------------- Public Interface ------------------- #
+# Aggregates all public model types for classification and detection tasks.
 
-# ====== Standard Library Imports ======
-from enum import StrEnum
+# ------------------- Local Project Imports ------------------- #
+from .cls import (
+    RankInference,
+    RankModel,
+)
 
+from .obb import (
+    ObbInference,
+    ObbModel,
+)
 
-class ModelType(StrEnum):
-    """
-    Enumeration of model types used across the system.
-
-    Attributes:
-        OBB (str): Oriented Bounding Box detection model.
-        CLS (str): Classification model.
-    """
-    OBB = "obb"
-    CLS = "classify"
+# -------------------- Public API -------------------- #
+__all__ = [
+    "RankInference",
+    "RankModel",
+    "ObbInference",
+    "ObbModel",
+]
