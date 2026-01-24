@@ -3,7 +3,7 @@
 # Includes a data class `CaptureRegion` for bounding rectangles,
 # and `ScreenInfo` with methods to query primary monitor properties and default capture area.
 
-"""Screen capture region management."""
+from __future__ import annotations
 
 # ====== Standard Library Imports ======
 from dataclasses import dataclass
